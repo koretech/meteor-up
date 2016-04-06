@@ -84,7 +84,7 @@ BUNDLE_DIR=${TMP_DIR}/bundle
 
 cd ${TMP_DIR}
 sudo rm -rf bundle
-sudo tar xvzf bundle.tar.gz > /dev/null
+sudo tar xvzf meteor_core.tar.gz > /dev/null
 sudo chmod -R +x *
 sudo chown -R ${USER} ${BUNDLE_DIR}
 
